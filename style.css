@@ -1,0 +1,87 @@
+body{
+font-family: Arial;
+margin:0;
+text-align:center;
+}
+
+.topbar{
+background:#ffeeba;
+padding:10px;
+font-size:14px;
+}
+
+header{
+background:#111;
+color:white;
+padding:20px;
+}
+
+.hero{
+padding:60px;
+background:#2c5364;
+color:white;
+}
+
+.callbtn{
+background:#ff5722;
+padding:15px 25px;
+color:white;
+text-decoration:none;
+border-radius:6px;
+display:inline-block;
+margin-top:20px;
+}
+
+.plans{
+padding:50px;
+}
+
+.plan-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.plan{
+border:1px solid #ddd;
+padding:25px;
+width:260px;
+border-radius:8px;
+}
+
+.popular{
+border:2px solid #28a745;
+}
+
+.price{
+font-size:28px;
+margin:10px 0;
+}
+
+.plan button{
+background:#28a745;
+color:white;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+}
+
+#callbox{
+display:none;
+background:#111;
+color:white;
+padding:40px;
+margin-top:40px;
+}
+
+.number{
+font-size:28px;
+}
+
+footer{
+background:#000;
+color:#aaa;
+padding:20px;
+font-size:13px;
+}
