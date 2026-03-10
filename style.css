@@ -1,88 +1,78 @@
-body{
-font-family:Arial, sans-serif;
-margin:0;
-background:#f4f4f4;
-text-align:center;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 
-header{
-background:#222;
-color:white;
-padding:80px 20px;
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
 
-.btn{
-background:#ff6a00;
-color:white;
-padding:14px 28px;
-border:none;
-text-decoration:none;
-border-radius:5px;
-cursor:pointer;
-font-size:16px;
+header nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-.features{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:40px;
-padding:50px 20px;
-background:white;
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-.feature{
-max-width:250px;
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
 }
 
-#products{
-padding:60px 20px;
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
 }
 
-.products{
-display:flex;
-flex-wrap:wrap;
-justify-content:center;
-gap:30px;
+h1, h2 {
+    color: #333;
 }
 
-.product{
-background:white;
-padding:25px;
-width:240px;
-border-radius:10px;
-box-shadow:0 0 10px rgba(0,0,0,0.1);
+h3 {
+    color: #555;
 }
 
-.price{
-font-size:22px;
-font-weight:bold;
-color:#ff6a00;
+.craft {
+    margin-bottom: 20px;
 }
 
-.product button{
-margin-top:15px;
-background:#222;
-color:white;
-border:none;
-padding:10px 20px;
-cursor:pointer;
-border-radius:5px;
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
 }
 
-.offer{
-background:#ff6a00;
-color:white;
-padding:60px 20px;
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 0 auto;
 }
 
-.reviews{
-padding:50px 20px;
-background:white;
+form input, form textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
-footer{
-background:#222;
-color:white;
-padding:25px;
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
